@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bootstrap 101 Template</title>
+  <title>plusone</title>
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/application.css" rel="stylesheet">
 </head>
 <body style="margin-top:60px;">
   <div class="navbar navbar-fixed-top">
@@ -15,13 +17,18 @@
           <li class="divider-vertical"></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              Account
+              <span>
+                <img src="img/avatar_0.jpeg" class="avatar" width="32" height="32"/>
+              </span>
+              finalage
               <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li class="active"><a href="#">Profile</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Something else</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Logout</a></li>
             </ul>
           </li>
         </ul>
@@ -34,7 +41,37 @@
     </div>
   </div>
   <div class="container">
-    <h1>Hello, world!</h1>
+    <div class="row">
+      <div class="span2">
+        <ul class="nav nav-list">
+          <li><a href="#"><i class="icon-home"></i>Home</a></li>
+
+          <li class="nav-header">Collabration</li>
+          <li class="active"><a href="#"><i class="icon-comments"></i>Conversations</a></li>
+          <li><a href="#"><i class="icon-tasks"></i>Tasks</a></li>
+          <li><a href="#"><i class="icon-eye-open"></i>Watches</a></li>
+          <li><a href="#"><i class="icon-calendar"></i>Calendar</a></li>
+          <li class="nav-header">Groups</li>
+          <li><a href="#"><i class="icon-group"></i>Kengen</a></li>
+          <li><a href="#"><i class="icon-group"></i>G-Kiban</a></li>
+          <li><a href="#"><i class="icon-group"></i>All groups</a></li>
+          <li><a href="#"><i class="icon-plus"></i>New group</a></li>
+          <li class="nav-header">Company</li>
+          <li><a href="#">Employees</a></li>
+          <li><a href="#">All groups</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Eric Zhong</a></li>
+          <li><a href="#">How about a lunch...</a></li>
+
+        </ul>
+      </div>
+      <div class="span6">
+        Main Block
+      </div>
+      <div class="span4">
+        Side Block
+      </div>
+    </div>
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>

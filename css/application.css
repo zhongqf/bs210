@@ -1,0 +1,13 @@
+.navbar .nav li img{
+  margin-top: -8px;
+  margin-bottom: -6px;
+  margin-right: 3px;
+}
+
+img.avatar {
+  border-radius: 100px;
+}
+
+.row .span2 .nav-list li i {
+  margin-right: 0.5em;
+}
