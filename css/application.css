@@ -5,7 +5,15 @@
 }
 
 img.avatar {
-  border-radius: 100px;
+  border-radius: 20px;
+  -webkit-mask-box-image: url(../img/meegomask.png);
+  width: 64px;
+  height: 64px;
+}
+img.avatar.small {
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
 }
 
 .row .span2 .nav-list li i {
