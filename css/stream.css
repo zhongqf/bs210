@@ -1,0 +1,66 @@
+.stream_item {
+  font-size: 93%;
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+
+.stream_item .siwrapper {
+  position: relative;
+  margin: 0px 0px 0px 60px;
+}
+
+.stream_item .siheader > div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  float: left;
+}
+
+.stream_item .siheader .avatar {
+  position: absolute;
+  top: 0px;
+  left: -60px;
+  width: 48px;
+  height: 48px;
+}
+
+.stream_item .sicontent p {
+  word-wrap: break-word;
+  margin-bottom: 0px;
+}
+
+.stream_item .sifooter ul {
+  font-size: 90%;
+  margin: 10px 0px 0px;
+  position: relative;
+}
+.stream_item .sifooter ul li {
+  list-style: none;
+}
+
+.stream_item .sifooter ul li.sicontrol {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.stream_item .sifooter ul li.sicontrol a{
+  margin-left: 10px;
+}
+
+.stream_item .sicomments ul {
+  margin: 10px 0 0 0;
+}
+
+.stream_item .sicomments ul li {
+  list-style: none;
+  position: relative;
+  border-top: 1px solid #eee;
+  padding: 10px 0 10px 42px;
+}
+
+.stream_item li.sicomment img.avatar {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}

@@ -5,17 +5,95 @@
 }
 
 img.avatar {
-  border-radius: 20px;
-  -webkit-mask-box-image: url(../img/meegomask.png);
-  width: 64px;
-  height: 64px;
+  border-radius: 8px;
+  /*-webkit-mask-box-image: url(../img/meegomask.png);*/
+  width: 48px;
+  height: 48px;
 }
 img.avatar.small {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 32px;
   height: 32px;
 }
 
-.row .span2 .nav-list li i {
+#mainnav li i {
   margin-right: 0.5em;
 }
+
+
+#userbox {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#userbox .info {
+  position: relative;
+  padding: 0 0 0 60px;
+  min-height: 48px;
+}
+
+#userbox .info img.avatar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#userbox .info a {
+  display: block;
+}
+
+#userbox ul {
+  margin: 0px;
+  clear: both;
+}
+
+#userbox ul li {
+  list-style: none;
+  float: left;
+}
+
+#userbox ul.stat {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+#userbox ul.stat li {
+  padding: 0 10px;
+  border-left: 1px solid #eee;
+}
+
+#userbox ul.stat li:first-child {
+  padding-left: 0px;
+  border-left: none;
+}
+
+#userbox ul.stat span {
+  font-size: 0.5em;
+  display: block;
+  line-height: 1em;
+}
+
+#userbox ul.comm li {
+  padding: 0 4px;
+  position: relative;
+}
+
+#userbox ul.comm li:first-child {
+  padding-left: 0;
+}
+
+#userbox ul.comm .badge {
+  position: absolute;
+  right: -2px;
+  top: -4px;
+  font-size: 0.8em;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: red;
+}
+
+
+
+
+
