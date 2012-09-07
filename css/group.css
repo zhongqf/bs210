@@ -1,0 +1,15 @@
+
+.groupheader {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.groupheader img.avatar.small {
+  border-radius: 0;
+  padding-right: 1px;
+  opacity: 0.3;
+}
+
+.groupheader img.avatar.small:hover {
+  opacity: 1;
+}
